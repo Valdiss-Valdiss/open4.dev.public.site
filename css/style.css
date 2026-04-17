@@ -1246,6 +1246,12 @@ body.cursor-active #ball::before {
     margin: 0;
 }
 
+@media (max-width: 991px) {
+    .tp-portfolio-overlay {
+        display: none;
+    }
+}
+
 /* ========================================
    Work Hero Section
    ======================================== */
